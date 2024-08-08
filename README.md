@@ -1,5 +1,5 @@
-# linuxos_flink-hadoop-iceberg
-Apache Flink Docker image with Hadoop and Apache Iceberg.
+# Linux version of Flink with Hadoop and Apache Iceberg
+Apache Flink Docker image with Hadoop and Apache Iceberg for Linux.
 
 The official Apache Flink image does not contain Hadoop dependencies.  This image extends the official image with Flink provided Hadoop Uber JAR and Apache Iceberg.
 
