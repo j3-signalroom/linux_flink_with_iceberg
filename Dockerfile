@@ -33,6 +33,9 @@ RUN apt-get update -y && apt-get install -y python3 python3-pip python3-dev open
     rm -rf /var/lib/apt/lists/* && \
     ln -s /usr/bin/python3 /usr/bin/python
 
+# Set JAVA_HOME
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-arm64
+
 # Install PyFlink
 RUN pip3 install --upgrade pip
 RUN pip3 install "grpcio-tools>=1.29.0,<=1.50.0"
