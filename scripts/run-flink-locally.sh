@@ -51,7 +51,7 @@ else
     \nAWS_REGION=${AWS_REGION}\
     \nAWS_DEFAULT_REGION=${AWS_REGION}\
     \nAWS_PROFILE=${AWS_PROFILE}\
-    \nAWS_S3_BUCKET=\"${AWS_S3_BUCKET}\"" > .env
+    \nAWS_S3_BUCKET=${AWS_S3_BUCKET}" > .env
 fi
 
 # Run the Apache Flink cluster containers in the background (i.e., detach execution from the Termial window)
