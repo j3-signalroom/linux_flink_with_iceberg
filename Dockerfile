@@ -50,3 +50,5 @@ RUN pip3 install s3fs
 RUN pip3 install utils
 
 CMD ["./bin/start-cluster.sh"]
+
+
