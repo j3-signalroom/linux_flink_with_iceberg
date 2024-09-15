@@ -92,4 +92,7 @@ RUN pipenv --python 3.11 install s3fs
 # This action forces the installation of the latest version of the AWS SDK
 RUN pip install boto3
 
+#
+RUN pip install google-api-python-client
+
 CMD ["./bin/start-cluster.sh"]
